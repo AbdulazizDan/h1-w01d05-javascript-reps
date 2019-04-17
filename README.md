@@ -60,7 +60,7 @@ Result should be:
 ```
 
 ```js
-console.log( firstWord +" " + secondWord +" " +thirdWord  +" " + fourthWord);
+console.log("Please" + " " + "squeeze"+ " " + "the"+" " +"cheese");
 ```
 
 ## 3 - Variable Assignments
@@ -75,8 +75,8 @@ var num2 = 10;
 Let's do this in parts:
 1. How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-var num3= num1 + num2
-console.log( num3 );
+var num3= num1+num2;
+console.log(num3);
 ```
 2. Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
@@ -101,14 +101,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 Write `true` or `false` based on the list above
 ```
-a)false 
-b)true  
-c)false
-d)false 
-e)false 
-f)true 
-g)true 
-h)false 
+a)false.
+b)true.
+c)false.
+d)false.
+e)false.
+f)false.
+g)true.
+h)false. 
 ```
 
 ## 5 - Functions:
@@ -128,7 +128,7 @@ console.log(timeTwo(2));
 *  Write a `for` loop so that the function outputs all values between 0 and any number passed into the `maxNum` parameter.
    
 ```js
-var maxNum=6 ;
+var maxNum=100 ;
 for( var i=0 ; i<=maxNum; i++){
 console.log(i);
 
@@ -140,7 +140,7 @@ console.log(i);
 *  Create a variable `favoriteMovies` that is equal to an array of your 5 favorite movies:
 
 ```js
-var favoriteMovies=['noteBook','catchMeIfYouCan','the terminal','seven','titanic'];
+var favoriteMovies=['Blacklist','the walking dead','prison break','lost','The Third Man'];
 ```
 
 *  How would you replace the 3rd favorite movie with the value `Toy Story 3`?
@@ -151,18 +151,16 @@ favoriteMovies[2]="Toy Story 3";
 
 *   How would you remove the last movie from that array?
 ```js
-favoriteMovies.pop();
+favoriteMovies.pop()
+console.log(favoriteMovies)
 ```
 
 *   **Write a function** called `addMovie` that takes a parameter of `newMovie` that adds that movie to the end of the array.  (i.e. addMovie('Titanic')) adds Titanic to the end of the array.
 
 ```js
 function addMovie(newMovie){
-
 return favoriteMovies.push(newMovie);
-
 }
-
 addMovie("titanic");```
 
 
